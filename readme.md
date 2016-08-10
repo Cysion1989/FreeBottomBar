@@ -1,0 +1,2 @@
+通过tablayout+viewpager实现的一个自由、定制性高的底部导航栏的demo，通过简单几行代码的注释与否，
+可以实现radiogroup+fragment和viewpager+fragment的切换。里面也有无限轮播等功能的代码功能。
