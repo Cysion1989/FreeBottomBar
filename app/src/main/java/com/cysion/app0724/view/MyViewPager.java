@@ -19,10 +19,10 @@ public class MyViewPager extends ViewPager {
         super(context, attrs);
     }
 
-    @Override
-    public boolean onTouchEvent(MotionEvent ev) {
-        return false;
-    }
+//    @Override
+//    public boolean onTouchEvent(MotionEvent ev) {
+//        return false;
+//    }
 
     @Override
     public boolean onInterceptTouchEvent(MotionEvent ev) {

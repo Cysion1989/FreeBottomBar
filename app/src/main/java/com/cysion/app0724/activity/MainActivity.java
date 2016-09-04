@@ -67,8 +67,7 @@ public class MainActivity extends AppCompatActivity {
             mTabLayout.getTabAt(i).setIcon(DemoModel.drawSet[i]);
             mTabLayout.getTabAt(i).setCustomView(R.layout.tabitem_main);
         }
-        mViewPager.setCurrentItem(1);
-        mViewPager.setCurrentItem(0);
+        mTabLayout.getTabAt(0).getCustomView().setSelected(true);
     }
 
     private void initView() {
