@@ -68,7 +68,6 @@ public class MainActivity extends AppCompatActivity {
             mTabLayout.getTabAt(i).setIcon(DemoModel.drawSet[i]);
             mTabLayout.getTabAt(i).setCustomView(R.layout.tabitem_main);
         }
-        //test02 forget commit
         mTabLayout.getTabAt(0).getCustomView().setSelected(true);
     }
 
