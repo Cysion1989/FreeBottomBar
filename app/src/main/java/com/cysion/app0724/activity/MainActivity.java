@@ -79,5 +79,6 @@ public class MainActivity extends AppCompatActivity {
         mViewPager = (MyViewPager) findViewById(R.id.vp_main);
         mTabLayout = (TabLayout) findViewById(R.id.tablayout_main);
         //test01 forget commit
+        //test03 forget commit
     }
 }
