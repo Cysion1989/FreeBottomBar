@@ -41,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
         initMenuList();
         //vp
         initViewPager();
+        // for testing
     }
 
     private void initMenuList() {
